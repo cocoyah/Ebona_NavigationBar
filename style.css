@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: Bahnschrift;
+}
+
+body{
+	background: #F3F1F0;
+}
+
+.wrapperSideBar{
+	display: flex;
+	position: relative;
+}
+
+.wrapperSideBar .sidebar{
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background: #088E92;
+	padding: 30px 0;
+}
+
+.wrapperSideBar .sidebar h2{
+	color: #F3F1F0;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.wrapperSideBar .sidebar ul li{
+	padding: 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	border-top: 1px solid rgba(225, 225, 225, 0.05);
+}
+
+.wrapperSideBar .sidebar ul li a{
+	color: #53D2DC;
+	display: block;
+}
+
+.wrapperSideBar .sidebar ul li:hover
+{
+	background: #53D2DC;
+}
+
+.wrapperSideBar .sidebar ul li:hover a{
+	color: #fff;
+}
+
+.sidebar ul li ul
+{
+    display: none;
+}
+
+.sidebar ul li ul li 
+{
+ 	float: none;
+}
+
+.wrapperSideBar .sidebar ul li ul li a:hover{
+	color: #088E92;
+}
+
+.sidebar ul li:hover ul 
+{
+    display: block;
+}
+
+
+.topbar{
+	width: 100%;
+	background: #D9D9D9;
+	height: 70px;
+	position: relative;
+	margin-left: 200px;
+}
+
+.topbar ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	text-align: center;
+}
+
+.topbar ul li{
+	float: left;
+}
+
+.topbar ul li a{
+	width: 120px;
+	color: #088E92;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 25px 20px;
+	font-family: Bahnschrift;  
+}
+
+.topbar a:hover{
+	color: #fff;
+}
+
+.topbar ul li ul{
+	background: #D9D9D9;
+}
+
+.topbar ul li ul li{
+	float: none;
+}
+
+.topbar ul li ul{
+	display: none;
+}
+
+.topbar ul li:hover ul{
+	display: block;
+}
